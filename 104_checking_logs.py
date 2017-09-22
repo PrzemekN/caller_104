@@ -6,6 +6,7 @@
 
 os.listdir
 import os
+# TODO przekazywac jako parametr wywolania a nie na stale jok dotąd
 dirname = "c:\\testy"
 print(os.listdir(dirname))
 print(glob.glob('c:\\testy\\*.txt'))
